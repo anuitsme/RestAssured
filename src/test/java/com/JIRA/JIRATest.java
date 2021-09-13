@@ -2,7 +2,7 @@ package com.JIRA;
 
 import org.testng.annotations.Test;
 
-import io.restassured.filter.session.SessionFilter;
+
 
 import static io.restassured.RestAssured.*;
 public class JIRATest {
@@ -12,15 +12,7 @@ public class JIRATest {
 		
 		baseURI="http://localhost:8080";
 		//Login Scenario
-		SessionFilter session=new SessionFilter();
-		given()
-		.log().all()
-		.header("Content-Type","application/json").
-		body("{ \"username\": \"anuitsme\", \"password\": \"Swapnil1$\" }").filter(session)
-		.when()
-		.post("/rest/auth/1/session")
-		.then().log().all()
-		.extract().response().asString();
+		
 		
 		
 		//Comment Scenario

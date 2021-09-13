@@ -10,7 +10,7 @@ public class SessionJIRA {
 	public static SessionFilter getSession(String url) {
 		SessionFilter session=new SessionFilter();
 		baseURI=url;
-		given()
+		given().relaxedHTTPSValidation()
 		.log().all()
 		.header("Content-Type","application/json").
 		body("{ \"username\": \"anuitsme\", \"password\": \"Swapnil1$\" }").filter(session)

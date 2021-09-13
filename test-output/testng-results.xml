@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2227" started-at="2021-09-11T17:27:19 IST" finished-at="2021-09-11T17:27:21 IST">
+  <suite name="Default suite" duration-ms="2407" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2227" started-at="2021-09-11T17:27:19 IST" finished-at="2021-09-11T17:27:21 IST">
-      <class name="com.JIRA.GetIssueDetails">
-        <test-method status="PASS" signature="getIssueDetails()[pri:0, instance:com.JIRA.GetIssueDetails@3b088d51]" name="getIssueDetails" duration-ms="2184" started-at="2021-09-11T17:27:19 IST" finished-at="2021-09-11T17:27:21 IST">
+    <test name="Default test" duration-ms="2407" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
+      <class name="com.OAuth2.RahulShettyAcademy">
+        <test-method status="PASS" signature="GetCourses()[pri:0, instance:com.OAuth2.RahulShettyAcademy@3234e239]" name="GetCourses" duration-ms="2369" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getIssueDetails -->
-      </class> <!-- com.JIRA.GetIssueDetails -->
+        </test-method> <!-- GetCourses -->
+      </class> <!-- com.OAuth2.RahulShettyAcademy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
