@@ -30,7 +30,7 @@ public class RahulShettyAcademy {
 	@Test
 	public void GetCourses() throws InterruptedException {
 		String accessToken=
-				"ya29.a0ARrdaM-iiGQ3pT79mcLd7bbih5dPXV7u9ez8Etz8KojuJ-6sQGVnh8vcaMvuM0iP7fCOi08O_KNFZi1a7EbR7LqvG1Jbr0CBb8KbPuqKm63MF-TEwvoHuYI8oKA_FFZztPQtkTv-tFNA8sChtNM1CGL74Rk9EQ";
+				"ya29.a0ARrdaM_2nLD5lQi5n8l2fRds64GSCPZ8LnAFUNAhO7zbkeifrApqC9Sx07xyDy5rgfEFQNA-cOVZffwP0CkLI4eVbpsZjqpimBdQgcltc6DcHZq2pqd1YOT8WTzpzVL3wPAb_sHg0ufLyDbSUOg-Q3XomCxHRA";
 		GetCourse result=given().urlEncodingEnabled(false)
 				.queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
 		.when()
@@ -42,6 +42,6 @@ public class RahulShettyAcademy {
 		System.out.println(result.getServices());
 		System.out.println(result.getUrl());
 		System.out.println(result.getCourses().toString());
-	}
+	} 
 	
 }

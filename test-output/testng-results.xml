@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2407" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
+  <suite started-at="2021-09-16T00:28:06 IST" name="Default suite" finished-at="2021-09-16T00:28:10 IST" duration-ms="4264">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2407" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
-      <class name="com.OAuth2.RahulShettyAcademy">
-        <test-method status="PASS" signature="GetCourses()[pri:0, instance:com.OAuth2.RahulShettyAcademy@3234e239]" name="GetCourses" duration-ms="2369" started-at="2021-09-14T01:23:49 IST" finished-at="2021-09-14T01:23:51 IST">
+    <test started-at="2021-09-16T00:28:06 IST" name="Default test" finished-at="2021-09-16T00:28:10 IST" duration-ms="4264">
+      <class name="com.Serialization.SpecBuilder">
+        <test-method signature="TestAddAPI()[pri:0, instance:com.Serialization.SpecBuilder@1e6454ec]" started-at="2021-09-16T00:28:06 IST" name="TestAddAPI" finished-at="2021-09-16T00:28:10 IST" duration-ms="4170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetCourses -->
-      </class> <!-- com.OAuth2.RahulShettyAcademy -->
+        </test-method> <!-- TestAddAPI -->
+      </class> <!-- com.Serialization.SpecBuilder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
